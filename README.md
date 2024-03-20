@@ -7,6 +7,14 @@ This project implements a simple movie recommendation engine using the k-Nearest
 **Data Source**: Utilizes a curated dataset of movies, including genres and IMDB ratings.
 - https://github.com/ArinB/MSBA-CA-Data/raw/main/CA05/movies_recommendation_data.csv
 
+
+## Usage
+- Load your dataset and preprocess the data if necessary.
+- Initialize the kNN model with NearestNeighbors from scikit-learn.
+- Fit the model with the movie dataset excluding identifiers like Movie ID and Movie Name.
+- To find recommendations for a movie, create a feature vector for that movie and use the model to find the nearest neighbors.
+
+
 ## Setup and Installation
 Ensure you have Python installed on your system. This project requires the following libraries:
 - NumPy
