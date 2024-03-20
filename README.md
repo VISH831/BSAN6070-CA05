@@ -1,0 +1,18 @@
+# CA05 – Movie Recommendation Engine
+### by Vish & Xiomara (Team 3)
+
+## Overview
+This project implements a simple movie recommendation engine using the k-Nearest Neighbors (kNN) algorithm. It's designed to recommend movies similar to a given movie, based on genres and IMDB ratings. This prototype serves as the backbone for a hypothetical movie recommendation website, similar to those used by Netflix or Hulu, but on a smaller scale.
+
+**Data Source**: Utilizes a curated dataset of movies, including genres and IMDB ratings.
+- https://github.com/ArinB/MSBA-CA-Data/raw/main/CA05/movies_recommendation_data.csv
+
+## Setup and Installation
+Ensure you have Python installed on your system. This project requires the following libraries:
+- NumPy
+- pandas
+- scikit-learn
+
+To install the necessary libraries, run:
+```bash
+pip install numpy pandas scikit-learn
